@@ -67,12 +67,7 @@ function App() {
   }, [activeTheme]);
 
   return (
-    <div className={`app-shell ${activeTheme}`}>
-      <div className="ambient-background">
-        <div className="ambient-orb ambient-orb-1"></div>
-        <div className="ambient-orb ambient-orb-2"></div>
-      </div>
-
+    <div className="app-shell">
       <div className="app-layout">
         <Header
           highest={highest}
@@ -134,7 +129,7 @@ function App() {
         <footer className="app-footer">
           <div className="footer-links">
             <span>
-              ⚡ TypePulse — Designed for speed, precision, and tactile typing
+              TypePulse — Designed for speed, precision, and tactile typing
             </span>
           </div>
           <div className="footer-tips">

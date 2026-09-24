@@ -274,7 +274,7 @@ function Content({
 
     // Copy results summary
     const handleCopyScore = () => {
-        const textToCopy = `⚡ TypePulse Speed Test Result:\n` +
+        const textToCopy = ` TypePulse Speed Test Result:\n` +
             `Speed: ${liveWPM} WPM (Raw: ${rawWPM} WPM)\n` +
             `Accuracy: ${liveAccuracy}%\n` +
             `Difficulty: ${currentDiff.toUpperCase()}\n` +

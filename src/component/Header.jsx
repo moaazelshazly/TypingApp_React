@@ -9,10 +9,10 @@ function Header({
   onChangeTheme,
 }) {
   const themes = [
-    { id: "theme-indigo", label: "Midnight Indigo", color: "#6366f1" },
-    { id: "theme-cyber", label: "Cyber Neon", color: "#06b6d4" },
-    { id: "theme-emerald", label: "Matrix Emerald", color: "#10b981" },
-    { id: "theme-amber", label: "Sunset Amber", color: "#f59e0b" },
+    { id: "theme-indigo", label: "Midnight Indigo", color: "#9697e1ff" },
+    { id: "theme-cyber", label: "Cyber Neon", color: "#78cedeff" },
+    { id: "theme-emerald", label: "Matrix Emerald", color: "#46deabff" },
+    { id: "theme-amber", label: "Sunset Amber", color: "#e3b362ff" },
   ];
 
   return (
@@ -31,13 +31,12 @@ function Header({
             <rect x="2" y="4" width="20" height="16" rx="3" />
             <path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M6 12h.01M10 12h.01M14 12h.01M18 12h.01M8 16h8" />
           </svg>
-          <div className="brand-glow"></div>
         </div>
         <div className="brand-text">
           <div className="brand-title">
             Type<span>Pulse</span>
           </div>
-          <span className="brand-tagline">Precision typing & speed benchmark</span>
+          <span className="brand-tagline">Typing Speed Test</span>
         </div>
       </div>
 
