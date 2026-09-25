@@ -6,10 +6,25 @@
   --caret-color: #6366f1;
 }
 
-html.theme-indigo, .theme-indigo { --caret-color: #9697e1; }
-html.theme-cyber, .theme-cyber { --caret-color: #78cede; }
-html.theme-emerald, .theme-emerald { --caret-color: #46deab; }
-html.theme-amber, .theme-amber { --caret-color: #e3b362; }
+html.theme-indigo,
+.theme-indigo {
+  --caret-color: #9697e1;
+}
+
+html.theme-cyber,
+.theme-cyber {
+  --caret-color: #78cede;
+}
+
+html.theme-emerald,
+.theme-emerald {
+  --caret-color: #46deab;
+}
+
+html.theme-amber,
+.theme-amber {
+  --caret-color: #e3b362;
+}
 
 * {
   box-sizing: border-box;
@@ -491,9 +506,12 @@ body {
 }
 
 @keyframes caretBlink {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
@@ -757,18 +775,22 @@ body {
     align-items: flex-start;
     gap: 12px;
   }
+
   .header-controls {
     width: 100%;
     justify-content: space-between;
   }
+
   .difficulty-container {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
+
   .stats-dashboard {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .text-display {
     font-size: 1.25rem;
   }
