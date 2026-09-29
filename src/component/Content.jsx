@@ -426,8 +426,7 @@ function Content({
                                     <span
                                         key={`c-${index}`}
                                         ref={isCurrent ? activeCharRef : null}
-                                        className={`text-char ${statusClass} ${isCurrent ? "char-current" : ""
-                                            }`}
+                                        className={`text-char ${statusClass} ${isCurrent ? "char-current" : ""}`}
                                     >
                                         {isCurrent && <span className="custom-caret" />}
                                         {char === " " ? (
@@ -512,15 +511,12 @@ function Content({
                     <div className="results-card">
                         {isNewPersonalBest && (
                             <div className="new-best-banner">
-                                <span className="crown-icon">👑</span>
                                 <span>NEW PERSONAL BEST!</span>
-                                <span className="crown-icon">👑</span>
                             </div>
                         )}
 
                         <div className="results-header">
                             <div className="rank-indicator" style={{ borderColor: rank.color }}>
-                                <span className="rank-icon">{rank.icon}</span>
                                 <div className="rank-details">
                                     <span className="rank-tier" style={{ color: rank.color }}>
                                         Tier {rank.tier}

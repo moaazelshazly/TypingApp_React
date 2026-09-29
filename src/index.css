@@ -460,7 +460,7 @@ body {
 }
 
 .char-incorrect {
-  color: #ef4444;
+  color: #ec2828;
   background-color: rgba(239, 68, 68, 0.15);
   border-radius: 2px;
 }
@@ -489,6 +489,7 @@ body {
   z-index: 10;
 }
 
+
 .char-current .custom-caret {
   display: none;
 }
@@ -512,8 +513,10 @@ body {
     opacity: 1;
   }
 
+
+
   50% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 

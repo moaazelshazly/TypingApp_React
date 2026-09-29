@@ -31,19 +31,19 @@ export function formatTime(seconds) {
 
 export function getRankBadge(wpm, accuracy) {
   if (wpm >= 110 && accuracy >= 95) {
-    return { title: 'Godspeed Legend', tier: 'S+', icon: '👑', color: '#f59e0b' };
+    return { title: 'Godspeed Legend', tier: 'S+', color: '#f59e0b' };
   }
   if (wpm >= 90) {
-    return { title: 'Cyber Speedster', tier: 'S', icon: '⚡', color: '#8b5cf6' };
+    return { title: 'Cyber Speedster', tier: 'S', color: '#8b5cf6' };
   }
   if (wpm >= 70) {
-    return { title: 'Pro Typist', tier: 'A', icon: '🔥', color: '#06b6d4' };
+    return { title: 'Pro Typist', tier: 'A', color: '#06b6d4' };
   }
   if (wpm >= 50) {
-    return { title: 'Fast Typist', tier: 'B', icon: '🚀', color: '#10b981' };
+    return { title: 'Fast Typist', tier: 'B', color: '#10b981' };
   }
   if (wpm >= 30) {
-    return { title: 'Casual Typist', tier: 'C', icon: '⌨️', color: '#3b82f6' };
+    return { title: 'Casual Typist', tier: 'C', color: '#3b82f6' };
   }
-  return { title: 'Beginner Cadet', tier: 'D', icon: '🌱', color: '#94a3b8' };
+  return { title: 'Beginner Cadet', tier: 'D', color: '#94a3b8' };
 }
