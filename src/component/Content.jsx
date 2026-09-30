@@ -426,7 +426,8 @@ function Content({
                                     <span
                                         key={`c-${index}`}
                                         ref={isCurrent ? activeCharRef : null}
-                                        className={`text-char ${statusClass} ${isCurrent ? "char-current" : ""}`}
+                                        className={`text-char ${statusClass} ${isCurrent ? "char-current" : ""
+                                            }`}
                                     >
                                         {isCurrent && <span className="custom-caret" />}
                                         {char === " " ? (
@@ -592,7 +593,7 @@ function Content({
                                 }}
                             >
                                 <span>Next Passage</span>
-                                <kbd className="btn-key-hint">Enter ↵</kbd>
+                                <kbd className="btn-key-hint">↵</kbd>
                             </button>
 
                             <button

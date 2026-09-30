@@ -87,13 +87,6 @@ function Header({
         {/* High score badge */}
         <div className="highscore-badge" title="Your highest WPM recorded">
           <div className="trophy-wrapper">
-            <svg
-              className="trophy-icon"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-            >
-              <path d="M19 4h-2V3a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v1H5a3 3 0 0 0-3 3v2a6 6 0 0 0 5.48 5.96A6.002 6.002 0 0 0 11 18.92V21H8a1 1 0 0 0 0 2h8a1 1 0 0 0 0-2h-3v-2.08a6.002 6.002 0 0 0 3.52-3.96A6 6 0 0 0 22 9V7a3 3 0 0 0-3-3zM4 9V7a1 1 0 0 1 1-1h2v4.18A4.01 4.01 0 0 1 4 9zm16 0a4.01 4.01 0 0 1-3 1.18V6h2a1 1 0 0 1 1 1v2z" />
-            </svg>
           </div>
           <div className="highscore-details">
             <span className="highscore-label">Personal Best</span>
